@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+/* section 1 start */
+
+/* Applies the background image to the section and scales it to be as large as possible */
+.sec-1 {
+    background-image: url('sec-1 background image.png'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover; 
+    /* Aligns the background image to the center */
+    background-position: center; 
+    /* Prevents the background image from repeating */
+    background-repeat: no-repeat; 
+    /* Sets the height of the section to automatically adjust to its content */
+    height: auto; 
+}
+
+/* Applies a white text color to the background div */
+.sec-1-background{
+color: white;
+}
+
+/* Positions the logo within its container and adds margins for spacing */
+.sec-1-logo-positioning {
+    margin-left: 5%; /* Adds some right margin to the logo for spacing */
+    margin-top: 5%; /* Adds some top margin to the logo for spacing */
+}
+
+/* Sets the size and adds margin to the logo image */
+.sec-1-logo-positioning img{
+    width: 5%;
+    margin-bottom: 15%;
+}
+
+/* Aligns the text to the left and vertically centers it using flexbox */
+.sec-1-text {
+    color: #FFF; /* Sets the text color (change to your desired color) */
+    text-align: left; /* Aligns the text to the left */
+    display: flex; /* Sets the display to flex for alignment purposes */
+    flex-direction: column; /* Sets the direction of the flex items to column */
+    justify-content: center; /* Aligns the items vertically to the center */
+    margin-left: 5%; /* Adds left margin for the text container */
+    margin-bottom: 7.5%; /* Adds some bottom margin for spacing */
+}
+
+/* Sets the font size for the heading */
+.sec-1-text h1 {
+    font-size: 5em;
+}
+
+/* Sets the font size and color for the paragraph text */
+.sec-1-text p {
+    font-size: 1.5em;
+    color: #9B9B9B;
+    margin-top: 5%; /* Adds some top margin for spacing */
+}
+
+/* section 1 end */
+
+
+
+/* section 2 start */
+
+.sec-2{
+    color: white;
+}
+
+.sec-2-background{
+    background-color: #141414;
+}
+
+/* Centers the container and sets a max width */
+.sec-2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    margin: 0 auto;
+    margin: 10% 0%;
+  }
+  
+  /* Positions the image on the left side of the container and sets some spacing */
+  .sec-2-left {
+    flex-basis: 50%;
+    padding: 0 10px 0 0;
+  }
+  
+  /* Sets the size and alignment for the image */
+  .sec-2-left img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Positions the text on the right side of the container */
+  .sec-2-right {
+    flex-basis: 50%;
+    padding: 0 0 0 10px;
+    margin-left: 5%;
+  }
+  
+  /* Sets the font size and margin for the title text */
+  .sec-2-title {
+    font-size: 4em;
+  }
+  
+  /* Sets the font size and margin for the paragraph text */
+  .sec-2-text {
+    font-size: 2em;
+    margin-top: 5%;
+  }
+  
+  /* Styles the button */
+  .sec-2-button {
+    background-color: #9B9B9B;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+  
+  /* section 2 end */
+  
+
+/* section 2 ends */
+
+
+
+/* section 3 starts */
+
+.sec-3-background{
+    background-color: #141414;
+    color: white;
+}
+.sec-3-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+  }
+
+  .sec-3-left img{
+    width: 80%;
+    text-align: center;
+  }
+
+  .sec-3-left{
+    margin-left: 10%;
+    width: 50%;
+  }
+
+  .sec-3-left h1{
+    font-size: 4em;
+  }
+  
+  .sec-3-left img{
+    margin-top: 10%;
+
+  }
+
+  
+  
+  .sec-3-column .sec-3-left {
+    width: 40%;
+    text-align: left;
+  }
+  
+  .sec-3-column .sec-3-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    
+  }
+
+
+  .sec-3-right h1{
+    text-align: left;
+
+  }
+
+  .sec-3-right-h1{
+    font-size: 3em;
+  }
+
+  
+  .sec-3-right p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .sec-3-column .sec-3-right h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+  
+  .sec-3-column .sec-3-right p {
+    font-size: 1.2em;
+  }
+
+  .sec-3-right{
+    margin-top: 2.5%;
+  }
+
+  em {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.4em;
+  }
+/* section 3 ends */
