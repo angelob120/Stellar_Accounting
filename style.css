@@ -281,7 +281,112 @@ em {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   color: #fff;
-  font-size: 14px;
+  font-size: 0.5em;
+
 }
 
 /* section 4 ends - Image column with 3 rows and semi-transparent overlay at the bottom */
+
+
+
+/* section 5 starts */
+
+.sec-5-background{
+  background-color: #141414;
+}
+
+/* sec-5: sets the background color for section 5 and centers the content */
+.sec-5 {
+
+  height: auto; /* Sets the height of the section to 100% of the viewport height */
+  display: flex; /* Sets the section to use the flexbox layout */
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+}
+
+/* sec-5-container: contains the centered text */
+.sec-5-container {
+  text-align: center; /* Aligns the text within the container */
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+/* sec-5-text: sets the text color and styling for the centered text */
+.sec-5-text {
+  color: #fff;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+
+.sec-5-text-p{
+  color: #fff;
+  font-size: 3em;
+}
+
+.sec-5-text-h3{
+  margin-top: 5%;
+  color: #9B9B9B;
+  font-size: 2em;
+}
+
+
+
+
+/* section 5 ends */
+
+
+/* Section 6 start */
+
+/* sec-6: parent container of the section, for styling purposes */
+.sec-6 {
+  background-color: #141414;
+  color: white;
+}
+
+/* sec-6-row: container for the text and image content, responsible for layout and positioning */
+.sec-6-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  padding: 50px 0;
+}
+
+/* sec-6-text: container for the text content, responsible for text alignment and positioning */
+.sec-6-text {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.sec-6-text h1{
+  font-size: 1.5em;
+  margin-bottom: 2.5%;
+}
+
+.sec-6-text p{
+  margin-bottom: 10%;
+}
+
+/* sec-6-image: container for the image content, responsible for image alignment and positioning */
+.sec-6-image {
+  width: 50%;
+  text-align: left;
+}
+
+.sec-6-image h1{
+ font-size: 2.5em;
+ margin-bottom: 10%;
+}
+
+
+/* sec-6-image img: styles for the image */
+.sec-6-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Section 6 end */
+
