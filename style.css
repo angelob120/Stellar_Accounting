@@ -138,86 +138,150 @@ color: white;
 
 
 /* section 3 starts */
-
-.sec-3-background{
-    background-color: #141414;
-    color: white;
+/* sec-3-background: sets the background color and text color for section 3 */
+.sec-3-background {
+  background-color: #141414;
+  color: white;
 }
+
+/* sec-3-column: sets up a flex container with row direction and wraps content */
 .sec-3-column {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 10%;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+}
 
-  .sec-3-left img{
-    width: 80%;
-    text-align: center;
-  }
+/* sec-3-left img: sets the width and alignment for the left column image */
+.sec-3-left img {
+  width: 80%;
+  text-align: center;
+}
 
-  .sec-3-left{
-    margin-left: 10%;
-    width: 50%;
-  }
+/* sec-3-left: sets the margin and width for the left column */
+.sec-3-left {
+  margin-left: 10%;
+  width: 50%;
+}
 
-  .sec-3-left h1{
-    font-size: 4em;
-  }
-  
-  .sec-3-left img{
-    margin-top: 10%;
+/* sec-3-left h1: sets the font size for the left column heading */
+.sec-3-left h1 {
+  font-size: 4em;
+}
 
-  }
+/* sec-3-left img: sets the top margin for the left column image */
+.sec-3-left img {
+  margin-top: 10%;
+}
 
-  
-  
-  .sec-3-column .sec-3-left {
-    width: 40%;
-    text-align: left;
-  }
-  
-  .sec-3-column .sec-3-right {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    text-align: left;
-    flex-direction: column;
-    
-  }
+/* sec-3-column .sec-3-left: sets the width and text alignment for the left column */
+.sec-3-column .sec-3-left {
+  width: 40%;
+  text-align: left;
+}
 
+/* sec-3-column .sec-3-right: sets the width and flex properties for the right column */
+.sec-3-column .sec-3-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  flex-direction: column;
+}
 
-  .sec-3-right h1{
-    text-align: left;
+/* sec-3-right h1: sets the text alignment for the right column heading */
+.sec-3-right h1 {
+  text-align: left;
+}
 
-  }
+/* sec-3-right-h1: sets the font size for the right column heading */
+.sec-3-right-h1 {
+  font-size: 3em;
+}
 
-  .sec-3-right-h1{
-    font-size: 3em;
-  }
+/* sec-3-right p: sets the top and bottom margins for the right column paragraph */
+.sec-3-right p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
-  
-  .sec-3-right p{
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+/* sec-3-column .sec-3-right h1: sets the font size and weight for the right column heading */
+.sec-3-column .sec-3-right h1 {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
 
-  .sec-3-column .sec-3-right h1 {
-    font-size: 1.5em;
-    font-weight: bolder;
-  }
-  
-  .sec-3-column .sec-3-right p {
-    font-size: 1.2em;
-  }
+/* sec-3-column .sec-3-right p: sets the font size for the right column paragraph */
+.sec-3-column .sec-3-right p {
+  font-size: 1.2em;
+}
 
-  .sec-3-right{
-    margin-top: 2.5%;
-  }
+/* sec-3-right: sets the top margin for the right column */
+.sec-3-right {
+  margin-top: 2.5%;
+}
 
-  em {
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 1.4em;
-  }
+/* em: sets the font style, weight, and size for emphasized text */
+em {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.4em;
+}
 /* section 3 ends */
+
+
+
+/* section 4 starts - Image column with 3 rows and semi-transparent overlay at the bottom */
+
+.sec-4-background{
+  background-color: white;
+}
+
+.sec-4-headline-text{
+  margin-left: 7.5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.sec-4-headline-text h1{
+  font-size: 3.5em;
+}
+
+.sec-4-headline-text p{
+  font-size: 1.5em;
+}
+
+/* Column and row styles */
+.sec-4-image-column {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.sec-4-image-row {
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.sec-4-image-row img {
+  width: 100%;
+  display: block;
+}
+
+/* Overlay styles */
+.sec-4-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* section 4 ends - Image column with 3 rows and semi-transparent overlay at the bottom */
