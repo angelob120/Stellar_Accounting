@@ -748,3 +748,71 @@ em {
 
 /* Section 6 end */
 
+/* Section 6 media */
+
+/* Media Queries */
+
+/* 1920px screen size */
+/* Note: No adjustments needed for this screen size as the base styles should work fine */
+
+/* 1280px screen size */
+/* Note: No major adjustments needed for this screen size as the base styles should still work fine */
+
+/* 768px screen size */
+@media (max-width: 768px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability on smaller screens */
+
+  .sec-6-row {
+    flex-direction: column;
+  }
+
+  .sec-6-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-6-text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sec-6-image h1 {
+    font-size: 2.5em;
+    margin-bottom: 10%;
+  }
+
+  .sec-6-text h1 {
+    margin-top: 10%;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+  }
+
+  .sec-6-text p {
+    font-size: 1.2em;
+    margin-bottom: 5%;
+  }
+}
+
+/* 375px screen size */
+@media (max-width: 375px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability and appearance on very small screens */
+
+  .sec-6-image h1 {
+    font-size: 1.7em;
+    margin-bottom: 4%;
+  }
+
+  .sec-6-text h1 {
+    font-size: 1.1em;
+    margin-bottom: 1.5%;
+  }
+
+  .sec-6-text p {
+    font-size: 0.9em;
+    margin-bottom: 4%;
+  }
+}
+
+
+/* section 6 media */
+
