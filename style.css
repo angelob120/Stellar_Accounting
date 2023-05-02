@@ -759,7 +759,7 @@ em {
 /* Note: No major adjustments needed for this screen size as the base styles should still work fine */
 
 /* 768px screen size */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   /* Note: Adjust font sizes, margins, and layout for better readability on smaller screens */
 
   .sec-6-row {
@@ -796,6 +796,10 @@ em {
 /* 375px screen size */
 @media (max-width: 375px) {
   /* Note: Adjust font sizes, margins, and layout for better readability and appearance on very small screens */
+
+  .sec-6-row {
+    flex-direction: column;
+  }
 
   .sec-6-image h1 {
     font-size: 1.7em;
