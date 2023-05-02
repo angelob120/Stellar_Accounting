@@ -488,7 +488,7 @@ em {
 }
 
 .sec-4-headline-text p{
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 /* Column and row styles */
@@ -527,6 +527,70 @@ em {
 /* section 4 ends - Image column with 3 rows and semi-transparent overlay at the bottom */
 
 
+/* section 4 media */
+/* Media Queries */
+
+/* 1920px screen size */
+/* Note: No adjustments needed for this screen size as the base styles should work fine */
+
+/* 1280px screen size */
+/* Note: No major adjustments needed for this screen size as the base styles should still work fine */
+
+/* 768px screen size */
+@media (max-width: 900px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability on smaller screens */
+
+  .sec-4-headline-text h1 {
+    font-size: 2.5em;
+  }
+
+  .sec-4-headline-text p {
+    font-size: 1.2em;
+  }
+
+  .sec-4-image-column {
+    flex-direction: column;
+  }
+
+  .sec-4-image-row {
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10%;
+  }
+
+
+  .sec-4-image-overlay {
+    font-size: 0.8em;
+  }
+}
+
+/* 375px screen size */
+@media (max-width: 375px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability and appearance on very small screens */
+
+  .sec-4-headline-text {
+    margin-left: 5%;
+  }
+
+  .sec-4-headline-text h1 {
+    font-size: 2em;
+  }
+
+  .sec-4-headline-text p {
+    font-size: 0.9em;
+  }
+
+  .sec-4-image-overlay {
+    font-size: 0.7em;
+  }
+}
+
+/* section 4 media */
+
+
+
+
 
 /* section 5 starts */
 
@@ -560,7 +624,9 @@ em {
 
 .sec-5-text-p{
   color: #fff;
-  font-size: 3em;
+  font-size: 5em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .sec-5-text-h3{
@@ -573,6 +639,59 @@ em {
 
 
 /* section 5 ends */
+
+
+/* section 5 media */
+/* Media Queries */
+
+/* 1920px screen size */
+/* Note: No adjustments needed for this screen size as the base styles should work fine */
+
+/* 1280px screen size */
+/* Note: No major adjustments needed for this screen size as the base styles should still work fine */
+
+/* 768px screen size */
+@media (max-width: 768px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability on smaller screens */
+
+  .sec-5-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .sec-5-text-p {
+    font-size: 2em;
+  }
+
+  .sec-5-text-h3 {
+    font-size: 1.5em;
+  }
+}
+
+/* 375px screen size */
+@media (max-width: 375px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability and appearance on very small screens */
+
+  .sec-5-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .sec-5-text-p {
+    font-size: 1.5em;
+  }
+
+  .sec-5-text-h3 {
+    font-size: 1.2em;
+  }
+}
+
+/* section 5 media */
+
+
+
+
+
 
 
 /* Section 6 start */
