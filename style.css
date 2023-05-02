@@ -66,6 +66,85 @@ color: white;
 
 
 
+/* section 1 optimization  */
+
+/* Media Queries */
+
+/* 1920px screen size */
+/* Note: No adjustments needed for this screen size as the base styles should work fine */
+
+/* 1280px screen size */
+/* Note: No major adjustments needed for this screen size as the base styles should still work fine */
+
+/* 768px screen size */
+@media (max-width: 768px) {
+  /* Note: Adjust font sizes and margins for better readability on smaller screens */
+
+  .sec-1-text h1 {
+    font-size: 3.5em;
+  }
+
+  .sec-1-text p {
+    font-size: 1.2em;
+  }
+
+  .sec-1-logo-positioning img {
+    width: 10%;
+  }
+
+  .sec-1-logo-positioning {
+    margin-top: 3%;
+  }
+
+  .sec-1-text {
+    margin-left: 4%;
+    margin-bottom: 5%;
+  }
+}
+
+/* 375px screen size */
+@media (max-width: 375px) {
+  /* Note: Adjust font sizes, margins, and logo size for better readability and appearance on very small screens */
+
+  .sec-1-text h1 {
+    font-size: 2.5em;
+  }
+
+  .sec-1-text p {
+    font-size: 1em;
+  }
+
+  .sec-1-logo-positioning img {
+    width: 15%;
+  }
+
+  .sec-1-logo-positioning {
+    margin-top: 2%;
+  }
+
+  .sec-1-text {
+    margin-left: 3%;
+    margin-bottom: 4%;
+  }
+}
+
+
+/* section 1 optimization  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* section 2 start */
 
 .sec-2{
@@ -129,11 +208,79 @@ color: white;
     cursor: pointer;
     margin-top: 5%;
   }
-  
-  /* section 2 end */
+
   
 
 /* section 2 ends */
+
+
+/* section 2 optimization */
+/* Media Queries */
+
+/* 1920px screen size */
+/* Note: No adjustments needed for this screen size as the base styles should work fine */
+
+/* 1280px screen size */
+/* Note: No major adjustments needed for this screen size as the base styles should still work fine */
+
+/* 768px screen size */
+@media (max-width: 900px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability on smaller screens */
+
+  .sec-2-container {
+    flex-direction: column;
+  }
+
+  .sec-2-left {
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .sec-2-right {
+    flex-basis: 100%;
+    padding: 0;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .sec-2-title {
+    font-size: 3em;
+  }
+
+  .sec-2-text {
+    font-size: 1.4em;
+  }
+
+  .sec-2-button {
+    font-size: 1.2em;
+  }
+}
+
+/* 375px screen size */
+@media (max-width: 375px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability and appearance on very small screens */
+
+  .sec-2-title {
+    font-size: 2.5em;
+  }
+
+  .sec-2-text {
+    font-size: 1.2em;
+  }
+
+
+
+  .sec-2-button {
+    font-size: 1em;
+  }
+}
+
+/* section 2 optimization  */
+
 
 
 
@@ -229,6 +376,98 @@ em {
   font-size: 1.4em;
 }
 /* section 3 ends */
+
+/* section 3 media */
+/* Media Queries */
+
+/* 1920px screen size */
+/* Note: No adjustments needed for this screen size as the base styles should work fine */
+
+/* 1280px screen size */
+/* Note: No major adjustments needed for this screen size as the base styles should still work fine */
+
+/* 768px screen size */
+@media (max-width: 900px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability on smaller screens */
+
+  .sec-3-column {
+    flex-direction: column;
+    align-content: left;
+  }
+
+  .sec-3-left,
+  .sec-3-right {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .sec-3-left {
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+
+  .sec-3-left h1 {
+    font-size: 2em;
+  }
+
+  .sec-3-left img{
+    width: 150%;
+  } 
+
+  .sec-3-right {
+    margin-top: 0;
+  }
+
+  .sec-3-right h1 {
+    font-size: 1.2em;
+  }
+
+  .sec-3-right p {
+    font-size: 1em;
+    margin-bottom: 20%;
+  }
+
+  em {
+    font-size: 1.2em;
+  }
+}
+
+/* 375px screen size */
+@media (max-width: 375px) {
+  /* Note: Adjust font sizes, margins, and layout for better readability and appearance on very small screens */
+
+  .sec-3-left,
+  .sec-3-right {
+    width: 100%;
+  }
+
+  .sec-3-left {
+    margin-left: 10%;
+  }
+
+  .sec-3-left h1 {
+    font-size: 2em;
+  }
+
+  .sec-3-right h1 {
+    font-size: 1em;
+  }
+
+  .sec-3-right p {
+    font-size: 0.8em;
+  }
+
+  em {
+    font-size: 1em;
+  }
+}
+
+/* section 3 media  */
+
+
+
+
+
 
 
 
