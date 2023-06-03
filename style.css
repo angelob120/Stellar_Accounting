@@ -11,6 +11,12 @@ body {
 /* section 1 start */
 
 /* Applies the background image to the section and scales it to be as large as possible */
+
+div {
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
 .sec-1 {
     background-image: url('sec-1 background image.png'); /* Replace 'your-image-url.jpg' with the actual image URL */
     background-size: cover; 
