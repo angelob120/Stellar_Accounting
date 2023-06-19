@@ -8,6 +8,30 @@ body {
     font-family: 'Roboto';
 }
 
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+#backToTopBtn:hover {
+  background-color: #333;
+}
+
+
+
+
+
 /* section 1 start */
 
 /* Applies the background image to the section and scales it to be as large as possible */
