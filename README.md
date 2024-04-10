@@ -5,7 +5,7 @@ This repository contains the HTML and CSS code for the Stellar Accounting websit
 
 ## Live Demo:
 
-You can view a live demo of the website (if deployed) by following this link: [Link to your deployed website (optional)]
+You can view a live demo of the website (if deployed) by following this link: [https://angelob120.github.io/Stellar_Accounting/ (optional)]
 
 ## About the Website:
 
